@@ -16,7 +16,7 @@ In components/articles there is 3 components :
 - Articles.jsx has to fetch with axios All Articles from Node Server
 - ArticleCard.jsx is a child component, it's only display article info in a card
 - Article.jsx has to display only one article, here you have to get a param id to get one article to fetch the server
-- Follow the TODO in Articles.jsx to add Action Delete for one article
+- Follow the TODO:: in ArticleCard.jsx to add Action Delete for one article in the parent component Articles.jsx
   
 ### BONUS
 
