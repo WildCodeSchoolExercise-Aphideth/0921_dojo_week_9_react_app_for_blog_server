@@ -8,6 +8,7 @@
 - Some components already exist for the Article Part
 - Some UI components are already here (Navbar & Footer, you don't have to do nothing in this)
 - The router of the App is Ok for now
+- Axios is install and you will use it to fetch the server
 
 ### 1 Make available components for articles
 
