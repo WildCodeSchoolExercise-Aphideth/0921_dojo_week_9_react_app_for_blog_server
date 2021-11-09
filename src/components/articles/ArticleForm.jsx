@@ -4,12 +4,12 @@ import { useParams } from "react-router";
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const ArticlehtmlForm = (props) => {
+const ArticleForm = () => {
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
     const [image, setImage] = useState('');
-    const navigate = useNavigate();
     const { id } = useParams();
+    const navigate = useNavigate();
 
     useEffect(() => {
         if (id) {
@@ -116,4 +116,4 @@ const ArticlehtmlForm = (props) => {
     );
 }
 
-export default ArticlehtmlForm;
+export default ArticleForm;
